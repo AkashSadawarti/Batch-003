@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
+/* Universal Selector  */
+body {
+    color:red;
+    font-family:Madimi One;
+    background-color: antiquewhite;
+}
+/* Tag */
+h1 {
+    color : green;
+}
+/* Class */
+.heading{
+   color:yellow;
+}
+/* Id */
+#head {
+    color:aqua;
+}
+/* Style : inline CSS */
+
+p {
+  font-family: Ojuju;
+  font-weight: 600;
+  /* font-size: 40px;  */
+  /* letter-spacing: 10px; */
+  
+}
+
+.sub-head{
+    /* Hex color */
+    /* color : #ffa500; */
+    /* Color Name */
+    /* color:cyan; */
+    /* RGB */
+     color : rgb(200, 200, 200)
+}
