@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+body {
+  font-family: Madimi One;
+}
+
+.insta-card {
+  width: 600px;
+  height: 570px;
+  border: 1px solid rgb(212, 207, 207);
+  border-radius: 10px;
+  margin: 16px auto;
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  word-spacing: 10px;
+  margin-top: 5px;
+}
+
+.comment-section {
+  display: flex;
+  gap: 8px;
+}
+
+.profile-img-2 {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.comment {
+  width: 100%;
+
+  border-radius: 30px;
+}
+
+.card {
+  width: 500px;
+  height: 360px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-sticky {
+  width: 500px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: tomato;
+  position: sticky;
+  top: 0;
+}
