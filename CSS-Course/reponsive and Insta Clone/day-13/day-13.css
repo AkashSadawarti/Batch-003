@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
 body {
-  font-family: Madimi One;
+  font-family: Amita;
 }
 
 .box {
@@ -83,6 +85,7 @@ body {
 .profile-img {
   height: 60px;
   border-radius: 50%;
+  object-fit: contain;
 }
 
 .post-image {
@@ -114,7 +117,7 @@ body {
 
 .app-info {
   width: 300px;
-  height: 280px;
+  height: 290px;
   border: 1px solid rgb(212, 207, 207);
   border-radius: 10px;
   margin: 16px auto;
@@ -123,7 +126,6 @@ body {
 }
 
 .app-icons {
-margin-top: 60px;
 display: flex;
 }
 
@@ -167,5 +169,6 @@ display: flex;
   height: 60px;
   border-radius: 50%;
   border: 4px solid rgb(218, 76, 76);
+  object-fit: cover;
 }
 
