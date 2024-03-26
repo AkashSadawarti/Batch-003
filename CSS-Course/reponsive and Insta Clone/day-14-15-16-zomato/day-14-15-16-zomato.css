@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 200vh;
+  height: 400vh;
 }
 .nav-bar {
   width: 1080px;
@@ -43,8 +43,8 @@ body {
 
 .dashboard {
   color: white;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   background-color: rgb(255, 254, 254);
 }
 
@@ -220,7 +220,7 @@ body {
   background-color: rgb(43, 42, 42);
   padding-left: 8px;
   padding-right: 20px;
-  opacity: 0.9;
+  opacity: 0.9px;
   box-shadow: 10px 10px 60px rgb(82, 81, 81);
   position: absolute;
   left: 0;
@@ -287,4 +287,53 @@ body {
 
 .max-safety {
   height: 20px;
+}
+
+.footer {
+  background-color: rgb(247, 247, 247);
+   height: 450px;
+}
+
+
+.footer-heading{
+   display: flex;
+   justify-content: space-between;
+   margin: 16px auto;
+   width: 1080px;
+   align-items: center;
+}
+
+.menu-btn{
+  margin-top: 25px;
+  padding: 15px 20px;
+  margin-left: 10px;
+  border: 1px solid rgb(219, 215, 215);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-card-collection{
+  display: flex;
+  justify-content:space-between;
+  margin: 16px auto;
+  width: 1080px;
+}
+
+.card-section-heading{
+   margin-bottom: 5px;
+   color: black;
+   letter-spacing: 3px;
+}
+
+.card-section-sub-heading{
+  color: rgb(133, 133, 133);
+  line-height: 30px;
+}
+
+.footer-note{
+  margin: 16px auto;
+  width: 1080px;
+  color: grey;
+  font-size: 14px;
 }
