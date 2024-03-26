@@ -290,6 +290,7 @@ body {
 }
 
 .footer {
+  margin-top: 50px;
   background-color: rgb(247, 247, 247);
   height: 450px;
 }
