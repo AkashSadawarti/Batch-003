@@ -291,19 +291,18 @@ body {
 
 .footer {
   background-color: rgb(247, 247, 247);
-   height: 450px;
+  height: 450px;
 }
 
-
-.footer-heading{
-   display: flex;
-   justify-content: space-between;
-   margin: 16px auto;
-   width: 1080px;
-   align-items: center;
+.footer-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto;
+  width: 1080px;
+  align-items: center;
 }
 
-.menu-btn{
+.menu-btn {
   margin-top: 25px;
   padding: 15px 20px;
   margin-left: 10px;
@@ -313,25 +312,25 @@ body {
   font-weight: 700;
 }
 
-.footer-card-collection{
+.footer-card-collection {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 16px auto;
   width: 1080px;
 }
 
-.card-section-heading{
-   margin-bottom: 5px;
-   color: black;
-   letter-spacing: 3px;
+.card-section-heading {
+  margin-bottom: 5px;
+  color: black;
+  letter-spacing: 3px;
 }
 
-.card-section-sub-heading{
+.card-section-sub-heading {
   color: rgb(133, 133, 133);
   line-height: 30px;
 }
 
-.footer-note{
+.footer-note {
   margin: 16px auto;
   width: 1080px;
   color: grey;
