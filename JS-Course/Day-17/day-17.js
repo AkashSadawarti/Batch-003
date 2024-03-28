@@ -7,7 +7,7 @@ document.getElementById("demo").innerHTML = "HI Bootcoding";
 // 4) alert();
 
 
-// document.write("Hi Batch003");
+document.write("Hi Batch003");
 
 console.log(5*6);
-// alert(5+6);
+alert(5+6);
